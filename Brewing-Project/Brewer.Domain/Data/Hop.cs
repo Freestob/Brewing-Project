@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Brewer.Domain.Data
 {
-    class Hop
+    public class Hop
     {
         public int Id { get; set; }
         public string Origin { get; set; }

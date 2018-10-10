@@ -48,15 +48,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BrewerContext.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Maps\GrainMap.cs" />
+    <Compile Include="Maps\HopMap.cs" />
+    <Compile Include="Maps\MiscAdditionMap.cs" />
+    <Compile Include="Maps\YeastMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Maps\" />
+    <ProjectReference Include="..\Brewer.Domain\Brewer.Domain.csproj">
+      <Project>{1269a255-b15a-4b70-9b2b-42f678be79d1}</Project>
+      <Name>Brewer.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

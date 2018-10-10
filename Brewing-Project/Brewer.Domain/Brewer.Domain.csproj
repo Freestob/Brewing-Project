@@ -51,7 +51,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Data\Grain.cs" />
     <Compile Include="Data\Hop.cs" />
-    <Compile Include="Data\MiscAdditions.cs" />
+    <Compile Include="Data\MiscAddition.cs" />
     <Compile Include="Data\Yeast.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
