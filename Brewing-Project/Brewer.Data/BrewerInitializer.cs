@@ -481,6 +481,126 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.28
             });
+            context.Grains.Add(new Grain()
+            {
+                Id = 40,
+                Name = "Chocolate Malt",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 450.0,
+                Potential = 1.034,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 41,
+                Name = "Chocolate Rye Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 250.0,
+                Potential = 1.031,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 42,
+                Name = "Chocolate Wheat Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 400.0,
+                Potential = 1.033,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 43,
+                Name = "Corn Sugar (Dextrose)",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 0.0,
+                Potential = 1.046,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 44,
+                Name = "Corn Syrup",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 1.0,
+                Potential = 1.036,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 45,
+                Name = "Corn, Flaked",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 1.3,
+                Potential = 1.037,
+                Max = 40.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 46,
+                Name = "Dark Dry Extract",
+                Origin = "United States",
+                Type = "Dry Extract",
+                Color = 17.5,
+                Potential = 1.044,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 47,
+                Name = "Dark Liquid Extract",
+                Origin = "United States",
+                Type = "Extract",
+                Color = 17.5,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 48,
+                Name = "Dememera Sugar",
+                Origin = "United Kingdom",
+                Type = "Sugar",
+                Color = 2.0,
+                Potential = 1.046,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 49,
+                Name = "Extra Light Dry Extract",
+                Origin = "United States",
+                Type = "Dry Extract",
+                Color = 3.0,
+                Potential = 1.044,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
         }
     }
 }
