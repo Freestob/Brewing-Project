@@ -244,12 +244,240 @@ namespace Brewer.Data
             context.Grains.Add(new Grain()
             {
                 Id = 20,
-                Name = "Amber Malt",
-                Origin = "United Kingdom",
+                Name = "Cane (Beet) Sugar",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 0.0,
+                Potential = 1.046,
+                Max = 7.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 21,
+                Name = "Cara-Pils/Dextrine",
+                Origin = "United States",
                 Type = "Grain",
-                Color = 22.0,
+                Color = 2.0,
+                Potential = 1.033,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 22,
+                Name = "Caraamber",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 30.0,
                 Potential = 1.035,
                 Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 23,
+                Name = "Caraaroma",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 130.0,
+                Potential = 1.035,
+                Max = 15.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 24,
+                Name = "Carafa I",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 337.0,
+                Potential = 1.032,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 25,
+                Name = "Carafa II",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 412.0,
+                Potential = 1.032,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 26,
+                Name = "Carafa III",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 525.0,
+                Potential = 1.032,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 27,
+                Name = "Carafoam",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.033,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 28,
+                Name = "Caramel Wheat Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 46.0,
+                Potential = 1.035,
+                Max = 15.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 29,
+                Name = "Caramel/Crystal Malt - 10L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 10.0,
+                Potential = 1.035,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 30,
+                Name = "Caramel/Crystal Malt - 20L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 20.0,
+                Potential = 1.035,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 31,
+                Name = "Caramel/Crystal Malt - 30L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 30.0,
+                Potential = 1.035,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 32,
+                Name = "Caramel/Crystal Malt - 40L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 40.0,
+                Potential = 1.034,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 33,
+                Name = "Caramel/Crystal Malt - 60L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 60.0,
+                Potential = 1.034,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 34,
+                Name = "Caramel/Crystal Malt - 80L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 80.0,
+                Potential = 1.034,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 35,
+                Name = "Caramel/Crystal Malt - 120L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 120.0,
+                Potential = 1.033,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 36,
+                Name = "Caramunich Malt",
+                Origin = "Belgium",
+                Type = "Grain",
+                Color = 56.0,
+                Potential = 1.033,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 37,
+                Name = "Carared",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 20.0,
+                Potential = 1.035,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 38,
+                Name = "Caravienne Malt",
+                Origin = "Belgium",
+                Type = "Grain",
+                Color = 22.0,
+                Potential = 1.034,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 39,
+                Name = "Chocolate Malt",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 350.0,
+                Potential = 1.028,
+                Max = 10.0,
                 Inventory = 0,
                 Price = 1.28
             });
