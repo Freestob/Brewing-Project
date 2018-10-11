@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BrewerContext.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="BrewerInitializer.cs" />
     <Compile Include="Maps\GrainMap.cs" />
     <Compile Include="Maps\HopMap.cs" />
     <Compile Include="Maps\MiscAdditionMap.cs" />
