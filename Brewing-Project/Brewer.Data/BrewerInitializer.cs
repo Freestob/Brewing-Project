@@ -841,6 +841,126 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.28
             });
+            context.Grains.Add(new Grain()
+            {
+                Id = 70,
+                Name = "Pale Malt (2 Row) UK",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 3.0,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 71,
+                Name = "Pale Malt (2 Row) US",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 72,
+                Name = "Pale Malt (6 Row) US",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.035,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 73,
+                Name = "Pale Malt, Maris Otter",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 3.0,
+                Potential = 1.038,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 74,
+                Name = "Peat Smoked Malt",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 2.8,
+                Potential = 1.034,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 75,
+                Name = "Pilsner (2 Row) Bel",
+                Origin = "Belgium",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 76,
+                Name = "Pilsner (2 Row) Ger",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.037,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 77,
+                Name = "Pilsner (2 Row) UK",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 1.0,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 78,
+                Name = "Pilsner Liquid Extract",
+                Origin = "United States",
+                Type = "Extract",
+                Color = 3.5,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 79,
+                Name = "Rice Extract Syrup",
+                Origin = "United States",
+                Type = "Extract",
+                Color = 7.0,
+                Potential = 1.032,
+                Max = 15.0,
+                Inventory = 0,
+                Price = 3.04
+            });
 
         }
     }
