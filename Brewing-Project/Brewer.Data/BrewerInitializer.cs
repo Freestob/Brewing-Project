@@ -961,6 +961,126 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 3.04
             });
+            context.Grains.Add(new Grain()
+            {
+                Id = 80,
+                Name = "Rice Hulls",
+                Origin = "United States",
+                Type = "Adjunct",
+                Color = 0.0,
+                Potential = 1.000,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 81,
+                Name = "Rice, Flaked",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 1.0,
+                Potential = 1.032,
+                Max = 25.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 82,
+                Name = "Roasted Barley",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 300.0,
+                Potential = 1.025,
+                Max = 25.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 83,
+                Name = "Rye Malt",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 4.7,
+                Potential = 1.029,
+                Max = 15.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 84,
+                Name = "Rye, Flaked",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.036,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 85,
+                Name = "Smoked Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 9.0,
+                Potential = 1.037,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 86,
+                Name = "Special B Malt",
+                Origin = "Belgium",
+                Type = "Grain",
+                Color = 180.0,
+                Potential = 1.030,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 87,
+                Name = "Special Roast",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 50.0,
+                Potential = 1.033,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 88,
+                Name = "Sugar, Table (Sucrose)",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 1.0,
+                Potential = 1.046,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 89,
+                Name = "Toasted Malt",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 27.0,
+                Potential = 1.033,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 3.04
+            });
 
         }
     }
