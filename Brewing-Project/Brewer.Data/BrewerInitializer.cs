@@ -721,6 +721,126 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 3.04
             });
+            context.Grains.Add(new Grain()
+            {
+                Id = 60,
+                Name = "Mild Malt",
+                Origin = "United Kingdom",
+                Type = "Grain",
+                Color = 4.0,
+                Potential = 1.037,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 61,
+                Name = "Milk Sugar (Lactose)",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 0.0,
+                Potential = 1.035,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 62,
+                Name = "Molasses",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 80.0,
+                Potential = 1.036,
+                Max = 5.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 63,
+                Name = "Munic Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 9.0,
+                Potential = 1.037,
+                Max = 80.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 64,
+                Name = "Munic Malt - 10L",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 10.0,
+                Potential = 1.035,
+                Max = 80.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 65,
+                Name = "Munic Malt - 20L",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 20,
+                Potential = 1.035,
+                Max = 80.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 66,
+                Name = "Oats, Flaked",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 1.0,
+                Potential = 1.037,
+                Max = 30.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 67,
+                Name = "Oats, Malted",
+                Origin = "United States",
+                Type = "Extract",
+                Color = 1.0,
+                Potential = 1.037,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 68,
+                Name = "Pale Liquid Extract",
+                Origin = "United States",
+                Type = "Extract",
+                Color = 8.0,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 69,
+                Name = "Pale Malt (2 Row) Bel",
+                Origin = "Belgium",
+                Type = "Grain",
+                Color = 3.0,
+                Potential = 1.037,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
 
         }
     }
