@@ -601,6 +601,127 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 3.04
             });
+            context.Grains.Add(new Grain()
+            {
+                Id = 50,
+                Name = "Grits",
+                Origin = "United States",
+                Type = "Adjunct",
+                Color = 1.0,
+                Potential = 1.037,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 51,
+                Name = "Honey",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 1.0,
+                Potential = 1.035,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 52,
+                Name = "Honey Malt",
+                Origin = "Canada",
+                Type = "Grain",
+                Color = 25.0,
+                Potential = 1.037,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 53,
+                Name = "Invert Sugar",
+                Origin = "United Kingdom",
+                Type = "Sugar",
+                Color = 0.0,
+                Potential = 1.046,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 54,
+                Name = "Lager Malt",
+                Origin = "",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.038,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 55,
+                Name = "Light Dry Extract",
+                Origin = "United States",
+                Type = "Dry Extract",
+                Color = 8.0,
+                Potential = 1.044,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 56,
+                Name = "Lyle's Golden Syrup",
+                Origin = "United Kingdom",
+                Type = "Extract",
+                Color = 0.0,
+                Potential = 1.036,
+                Max = 20.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 57,
+                Name = "Maltodextrin",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 3.0,
+                Potential = 1.035,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 24.00
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 58,
+                Name = "Maple Syrup",
+                Origin = "United States",
+                Type = "Sugar",
+                Color = 35.0,
+                Potential = 1.030,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 59,
+                Name = "Melanoiden Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 4.0,
+                Potential = 1.037,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+
         }
     }
 }
