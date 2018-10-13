@@ -1081,7 +1081,90 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 3.04
             });
-
+            context.Grains.Add(new Grain()
+            {
+                Id = 90,
+                Name = "Treacle",
+                Origin = "United Kingdom",
+                Type = "Extract",
+                Color = 100.0,
+                Potential = 1.036,
+                Max = 15.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 91,
+                Name = "Turbinado",
+                Origin = "United Kingdom",
+                Type = "Sugar",
+                Color = 10.0,
+                Potential = 1.044,
+                Max = 10.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 92,
+                Name = "Victory Malt",
+                Origin = "United States",
+                Type = "Grain",
+                Color = 25.0,
+                Potential = 1.034,
+                Max = 15.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 93,
+                Name = "Vienna Malt",
+                Origin = "Germany",
+                Type = "Grain",
+                Color = 3.5,
+                Potential = 1.036,
+                Max = 90.0,
+                Inventory = 0,
+                Price = 1.28
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 94,
+                Name = "Wheat Dry Extract",
+                Origin = "United States",
+                Type = "Dry Extract",
+                Color = 8.0,
+                Potential = 1.044,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 95,
+                Name = "Wheat Liquid Extract",
+                Origin = "United States",
+                Type = "Extract",
+                Color = 8.0,
+                Potential = 1.036,
+                Max = 100.0,
+                Inventory = 0,
+                Price = 3.04
+            });
+            context.Grains.Add(new Grain()
+            {
+                Id = 96,
+                Name = "Wheat Malt, Bel",
+                Origin = "Belgium",
+                Type = "Grain",
+                Color = 2.0,
+                Potential = 1.037,
+                Max = 60.0,
+                Inventory = 0,
+                Price = 1.28
+            });
         }
     }
 }
