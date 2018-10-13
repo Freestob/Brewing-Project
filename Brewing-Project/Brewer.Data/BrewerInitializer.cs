@@ -1165,6 +1165,106 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.28
             });
+            context.Hops.Add(new Hop()
+            {
+                Id = 1,
+                Name = "Admiral",
+                Origin = "United Kingdom",
+                Alpha = 14.75,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 2,
+                Name = "Agnus",
+                Origin = "Czech Republic",
+                Alpha = 10.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 3,
+                Name = "Ahtanum",
+                Origin = "United States",
+                Alpha = 6.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 4,
+                Name = "Amarillo",
+                Origin = "United States",
+                Alpha = 9.20,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.19
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 5,
+                Name = "Amarillo Gold",
+                Origin = "United States",
+                Alpha = 8.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 6,
+                Name = "Apollo",
+                Origin = "United States",
+                Alpha = 17.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.50
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 7,
+                Name = "Aquila",
+                Origin = "United States",
+                Alpha = 6.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 8,
+                Name = "Aramis",
+                Origin = "France",
+                Alpha = 8.10,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 9,
+                Name = "Atlas",
+                Origin = "Slovenia",
+                Alpha = 9.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 10,
+                Name = "Atlas (Styrian Atlas)",
+                Origin = "Slovenia",
+                Alpha = 9.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
         }
     }
 }
