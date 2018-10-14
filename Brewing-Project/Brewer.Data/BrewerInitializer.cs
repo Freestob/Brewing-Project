@@ -1265,6 +1265,97 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.00
             });
+            context.Hops.Add(new Hop()
+            {
+                Id = 11,
+                Name = "Aurora",
+                Origin = "Slovenia",
+                Alpha = 8.25,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 12,
+                Name = "Aurora (Super Styrian Aurora)",
+                Origin = "Slovenia",
+                Alpha = 8.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 13,
+                Name = "Azacca",
+                Origin = "United States",
+                Alpha = 15.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 14,
+                Name = "Banner",
+                Origin = "United States",
+                Alpha = 10.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 15,
+                Name = "Belma",
+                Origin = "United States",
+                Alpha = 10.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 16,
+                Name = "Bitter Gold",
+                Origin = "United States",
+                Alpha = 9.80,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 17,
+                Name = "Boadicea",
+                Origin = "United Kingdom",
+                Alpha = 8.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 18,
+                Name = "Bobek",
+                Origin = "Slovenia",
+                Alpha = 5.25,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 19,
+                Name = "Bobek (Styrian Golding B)",
+                Origin = "Slovenia",
+                Alpha = 5.25,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+           
         }
     }
 }
