@@ -1355,7 +1355,106 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.00
             });
-           
+            context.Hops.Add(new Hop()
+            {
+                Id = 20,
+                Name = "Bramling Cross",
+                Origin = "United Kingdom",
+                Alpha = 6.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 21,
+                Name = "Bravo",
+                Origin = "United States",
+                Alpha = 15.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 22,
+                Name = "Brewer's Gold",
+                Origin = "United States",
+                Alpha = 8.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.59
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 23,
+                Name = "Brewer's Gold, Germany",
+                Origin = "Germany",
+                Alpha = 7.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 24,
+                Name = "Brewer's Gold, UK",
+                Origin = "United Kingdom",
+                Alpha = 7.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 25,
+                Name = "Brooklyn",
+                Origin = "New Zealand",
+                Alpha = 18.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 26,
+                Name = "Bullion",
+                Origin = "United States",
+                Alpha = 7.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 27,
+                Name = "Bullion",
+                Origin = "United Kingdom",
+                Alpha = 8.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 28,
+                Name = "Calypso",
+                Origin = "United Kingdom",
+                Alpha = 13.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 29,
+                Name = "Cascade",
+                Origin = "United States",
+                Alpha = 5.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
         }
     }
 }
