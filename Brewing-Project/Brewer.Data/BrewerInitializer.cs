@@ -1955,6 +1955,206 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 2.00
             });
+            context.Hops.Add(new Hop()
+            {
+                Id = 70,
+                Name = "Hallertauer",
+                Origin = "Germany",
+                Alpha = 4.80,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 71,
+                Name = "Hallertauer Hersbrucker",
+                Origin = "Germany",
+                Alpha = 4.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 72,
+                Name = "Hallertauer Mittelfrueh",
+                Origin = "Germany",
+                Alpha = 4.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 73,
+                Name = "Hallertauer, New Zealand",
+                Origin = "New Zealand",
+                Alpha = 8.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 74,
+                Name = "Harmonie",
+                Origin = "Czech Republic",
+                Alpha = 6.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 75,
+                Name = "Helga (Southern Hallertaue)",
+                Origin = "Australia",
+                Alpha = 5.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 76,
+                Name = "Herald",
+                Origin = "United Kingdom",
+                Alpha = 12.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 77,
+                Name = "Herkules",
+                Origin = "Germany",
+                Alpha = 14.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.59
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 68,
+                Name = "Hersbrucker",
+                Origin = "Germany",
+                Alpha = 2.75,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.79
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 69,
+                Name = "HopShot",
+                Origin = "",
+                Alpha = 65.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 70,
+                Name = "Horizon",
+                Origin = "United States",
+                Alpha = 12.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 71,
+                Name = "Huell Melon",
+                Origin = "Germany",
+                Alpha = 7.20,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 72,
+                Name = "Idaho #7",
+                Origin = "United States",
+                Alpha = 13.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 73,
+                Name = "Jarrylo",
+                Origin = "United States",
+                Alpha = 11.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 74,
+                Name = "Kohatu",
+                Origin = "New Zealand",
+                Alpha = 6.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 75,
+                Name = "Lemondrop",
+                Origin = "United States",
+                Alpha = 6.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 76,
+                Name = "Libery",
+                Origin = "United States",
+                Alpha = 4.30,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 77,
+                Name = "Liberty, New Zealand",
+                Origin = "New Zealand",
+                Alpha = 5.90,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 78,
+                Name = "Lublin",
+                Origin = "Poland",
+                Alpha = 5.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 79,
+                Name = "Lublin (Lubelski)",
+                Origin = "Poland",
+                Alpha = 4.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
 
 
         }
