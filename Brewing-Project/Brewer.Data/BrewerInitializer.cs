@@ -2255,6 +2255,107 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.00
             });
+            context.Hops.Add(new Hop()
+            {
+                Id = 100,
+                Name = "Newport",
+                Origin = "United States",
+                Alpha = 13.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 101,
+                Name = "Northdown",
+                Origin = "United Kingdom",
+                Alpha = 8.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 102,
+                Name = "Northern Brewer",
+                Origin = "Germany",
+                Alpha = 8.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 103,
+                Name = "Nugget",
+                Origin = "United States",
+                Alpha = 13.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 104,
+                Name = "Olympic",
+                Origin = "United States",
+                Alpha = 11.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 105,
+                Name = "Opal",
+                Origin = "Germany",
+                Alpha = 6.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 106,
+                Name = "Orion",
+                Origin = "Germany",
+                Alpha = 7.25,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 107,
+                Name = "Pacific Gem",
+                Origin = "New Zealand",
+                Alpha = 15.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 108,
+                Name = "Pacific Hallertau (Pacifica)",
+                Origin = "New Zealand",
+                Alpha = 5.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.39
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 109,
+                Name = "Pacific Jade",
+                Origin = "New Zealand",
+                Alpha = 13.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+
 
 
         }
