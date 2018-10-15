@@ -2155,6 +2155,106 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.00
             });
+            context.Hops.Add(new Hop()
+            {
+                Id = 90,
+                Name = "Magnum",
+                Origin = "United States",
+                Alpha = 12.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.59
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 91,
+                Name = "Mandarina Bavaria",
+                Origin = "Germany",
+                Alpha = 8.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 92,
+                Name = "Marynka",
+                Origin = "Poland",
+                Alpha = 10.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 93,
+                Name = "Markur (Hallertauer Merkur)",
+                Origin = "Germany",
+                Alpha = 14.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.89
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 94,
+                Name = "Millenium",
+                Origin = "United States",
+                Alpha = 14.25,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 95,
+                Name = "Mosaic (HBC 369)",
+                Origin = "United States",
+                Alpha = 12.25,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 96,
+                Name = "Motueka",
+                Origin = "New Zealand",
+                Alpha = 7.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 97,
+                Name = "Mt. Hood",
+                Origin = "United States",
+                Alpha = 6.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 98,
+                Name = "Mt. Rainer",
+                Origin = "United States",
+                Alpha = 7.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.99
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 99,
+                Name = "Nelson Sauvin",
+                Origin = "New Zealand",
+                Alpha = 12.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
 
 
         }
