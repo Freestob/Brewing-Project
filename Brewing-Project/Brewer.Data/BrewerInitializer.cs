@@ -2355,9 +2355,306 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.00
             });
-
-
-
+            context.Hops.Add(new Hop()
+            {
+                Id = 110,
+                Name = "Palisade",
+                Origin = "United States",
+                Alpha = 7.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 111,
+                Name = "Pekko",
+                Origin = "United States",
+                Alpha = 15.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 112,
+                Name = "Perle",
+                Origin = "Germany",
+                Alpha = 8.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.79
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 113,
+                Name = "Perle, United States",
+                Origin = "United States",
+                Alpha = 8.25,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 114,
+                Name = "Phoenix",
+                Origin = "United Kingdom",
+                Alpha = 8.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 115,
+                Name = "Pilgrim",
+                Origin = "United Kingdom",
+                Alpha = 11.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 116,
+                Name = "Pilot",
+                Origin = "United Kingdom",
+                Alpha = 11.50,
+                Type = "Bitter",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 117,
+                Name = "Pioneer",
+                Origin = "United Kingdom",
+                Alpha = 9.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 118,
+                Name = "Polaris",
+                Origin = "Germany",
+                Alpha = 21.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 119,
+                Name = "Premiant",
+                Origin = "Czech Republic",
+                Alpha = 7.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 120,
+                Name = "Pride of Ringwood",
+                Origin = "Australia",
+                Alpha = 9.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 121,
+                Name = "Progress",
+                Origin = "United Kingdom",
+                Alpha = 6.25,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 122,
+                Name = "Rakau (Alpharoma)",
+                Origin = "New Zealand",
+                Alpha = 10.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 123,
+                Name = "Riwaka",
+                Origin = "New Zealand",
+                Alpha = 5.25,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 124,
+                Name = "Rubin",
+                Origin = "Czech Republic",
+                Alpha = 12.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 125,
+                Name = "Saaz",
+                Origin = "United States",
+                Alpha = 3.75,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.89
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 126,
+                Name = "Santiam",
+                Origin = "United States",
+                Alpha = 6.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 127,
+                Name = "Saphir",
+                Origin = "Germany",
+                Alpha = 3.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 128,
+                Name = "Satus",
+                Origin = "United States",
+                Alpha = 13.25,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 129,
+                Name = "Select Spalt",
+                Origin = "Germany",
+                Alpha = 4.75,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 130,
+                Name = "Simcoe",
+                Origin = "United States",
+                Alpha = 13.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 131,
+                Name = "Sladek",
+                Origin = "Czech Republic",
+                Alpha = 5.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 132,
+                Name = "Smaragd (Emerald)",
+                Origin = "Germany",
+                Alpha = 5.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.79
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 133,
+                Name = "Sonenet Golding",
+                Origin = "United States",
+                Alpha = 4.80,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 134,
+                Name = "Sorachi Ace",
+                Origin = "Japan",
+                Alpha = 13.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 2.19
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 135,
+                Name = "Southern Cross",
+                Origin = "New Zealand",
+                Alpha = 13.00,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 136,
+                Name = "Sovereign",
+                Origin = "United Kingdom",
+                Alpha = 5.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 137,
+                Name = "Spalt Spalter",
+                Origin = "Germany",
+                Alpha = 3.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 138,
+                Name = "Spalter",
+                Origin = "Germany",
+                Alpha = 4.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 139,
+                Name = "Spalter Select",
+                Origin = "Germany",
+                Alpha = 4.75,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.99
+            });
         }
     }
 }
