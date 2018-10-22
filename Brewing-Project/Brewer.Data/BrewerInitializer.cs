@@ -2655,6 +2655,206 @@ namespace Brewer.Data
                 Inventory = 0,
                 Price = 1.99
             });
+            context.Hops.Add(new Hop()
+            {
+                Id = 140,
+                Name = "Sterling",
+                Origin = "United States",
+                Alpha = 7.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 141,
+                Name = "Sticklebract",
+                Origin = "New Zealand",
+                Alpha = 13.50,
+                Type = "Both",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 142,
+                Name = "Strisslespalt",
+                Origin = "France",
+                Alpha = 4.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 143,
+                Name = "Styrian Aurora (Super Styrian)",
+                Origin = "Austria",
+                Alpha = 7.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.79
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 144,
+                Name = "Styrian Bobek",
+                Origin = "Austria",
+                Alpha = 5.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.69
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 145,
+                Name = "Styrian Celja",
+                Origin = "Austria",
+                Alpha = 4.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.79
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 146,
+                Name = "Styrian Golding (Savinja Golding)",
+                Origin = "Slovenia",
+                Alpha = 5.25,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.59
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 147,
+                Name = "Styrian Goldings",
+                Origin = "Slovenia",
+                Alpha = 5.40,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 148,
+                Name = "Summer (Summer Saaz)",
+                Origin = "Australia",
+                Alpha = 5.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 149,
+                Name = "Summit",
+                Origin = "United States",
+                Alpha = 17.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 150,
+                Name = "Sun",
+                Origin = "United States",
+                Alpha = 14.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 151,
+                Name = "Super Alpha",
+                Origin = "New Zealand",
+                Alpha = 13.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 152,
+                Name = "Super Galena",
+                Origin = "United States",
+                Alpha = 14.50,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 153,
+                Name = "Super Pride",
+                Origin = "Australia",
+                Alpha = 14.25,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 154,
+                Name = "Sussex",
+                Origin = "United Kingdom",
+                Alpha = 5.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 155,
+                Name = "Sylva",
+                Origin = "Australia",
+                Alpha = 5.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 156,
+                Name = "Tahoma",
+                Origin = "United States",
+                Alpha = 7.80,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 2.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 157,
+                Name = "Target",
+                Origin = "United Kingdom",
+                Alpha = 11.00,
+                Type = "Bittering",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 158,
+                Name = "Tettnang",
+                Origin = "Germany",
+                Alpha = 4.50,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.00
+            });
+            context.Hops.Add(new Hop()
+            {
+                Id = 159,
+                Name = "Tettnang (Tettnang Tettnager)",
+                Origin = "Germany",
+                Alpha = 4.00,
+                Type = "Aroma",
+                Inventory = 0,
+                Price = 1.99
+            });
         }
     }
 }
