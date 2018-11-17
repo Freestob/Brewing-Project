@@ -1,5 +1,5 @@
 ﻿using Brewer.Data.Maps;
-using Brewer.Domain.Data;
+using Brewer.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
