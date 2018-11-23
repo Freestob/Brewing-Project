@@ -9,7 +9,7 @@ using System.Web;
 
 namespace Brewer.API.DAL
 {
-    public class BrewerDbContext :DbContext
+    public class BrewerDbContext : DbContext
     {
         public BrewerDbContext() : base("Brewer.API")
         {

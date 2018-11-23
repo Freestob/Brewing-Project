@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Brewer.API.App_Start
+namespace Brewer.API
 {
     public class RouteConfig
     {

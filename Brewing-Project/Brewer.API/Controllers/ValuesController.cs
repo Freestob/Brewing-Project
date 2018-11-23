@@ -7,31 +7,31 @@ using System.Web.Http;
 
 namespace Brewer.API.Controllers
 {
-    public class GrainController : ApiController
+    public class ValuesController : ApiController
     {
-        // GET: api/Grain
+        // GET api/values
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/Grain/5
+        // GET api/values/5
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/Grain
+        // POST api/values
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT: api/Grain/5
+        // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/Grain/5
+        // DELETE api/values/5
         public void Delete(int id)
         {
         }
