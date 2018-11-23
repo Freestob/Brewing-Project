@@ -4,12 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewer", "Brewing-Project\Brewer.csproj", "{32967D2F-99A1-4BCD-A4B3-102A486F8D4D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1269A255-B15A-4B70-9B2B-42F678BE79D1} = {1269A255-B15A-4B70-9B2B-42F678BE79D1}
+		{54F3A7B4-CFA6-4342-9A9B-037E0816CEB7} = {54F3A7B4-CFA6-4342-9A9B-037E0816CEB7}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewer.Data", "Brewer.Data\Brewer.Data.csproj", "{54F3A7B4-CFA6-4342-9A9B-037E0816CEB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewer.Domain", "Brewer.Domain\Brewer.Domain.csproj", "{1269A255-B15A-4B70-9B2B-42F678BE79D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewer.API", "Brewer.API\Brewer.API.csproj", "{C0D4D3EB-56D5-4BFB-9D57-0C79A8F66341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewer.API", "..\..\Brewer.API\Brewer.API\Brewer.API.csproj", "{AA605FBD-6357-4129-B3DF-ED59CEA133C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +33,10 @@ Global
 		{1269A255-B15A-4B70-9B2B-42F678BE79D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1269A255-B15A-4B70-9B2B-42F678BE79D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1269A255-B15A-4B70-9B2B-42F678BE79D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0D4D3EB-56D5-4BFB-9D57-0C79A8F66341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0D4D3EB-56D5-4BFB-9D57-0C79A8F66341}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0D4D3EB-56D5-4BFB-9D57-0C79A8F66341}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0D4D3EB-56D5-4BFB-9D57-0C79A8F66341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA605FBD-6357-4129-B3DF-ED59CEA133C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA605FBD-6357-4129-B3DF-ED59CEA133C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA605FBD-6357-4129-B3DF-ED59CEA133C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA605FBD-6357-4129-B3DF-ED59CEA133C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
