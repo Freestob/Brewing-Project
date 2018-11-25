@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Brewer.Domain.Models.Grain>
+@{
+    ViewBag.Title = "AllGrain";
+}
+
+<h2>AllGrain</h2>
+
+<table class="table table-hover">
+	<tr>
+		<th>
+			Name
+		</th>
+		<th>
+			Origin
+		</th>
+		<th>
+			Form
+		</th>
+		<th>
+			Color
+		</th>
+		<th>
+			Potential
+		</th>
+		<th>
+			CoarseFineDiff
+		</th>
+		<th>
+			Moisture
+		</th>
+		<th>
+			Protein
+		</th>
+		<th>
+			Diasitic
+		</th>
+		<th>
+			IBU
+		</th>
+	</tr>
+	@foreach (var grain in Model)
+	{
+	<tr>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Name)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Origin)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Form)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Color)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Potential)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.CoarseFineDiff)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Moisture)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Protein)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.Diasitic)
+		</td>
+		<td>
+			@Html.DisplayFor(modelGrain => grain.IBU)
+		</td>
+	</tr>
+	}
+</table>
